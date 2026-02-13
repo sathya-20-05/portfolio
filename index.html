@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sathya A | Web Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <div class="logo">Sathya<span>.</span></div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" id="navToggle">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <p class="hero-tagline">Aspiring Web Developer & UI/UX Enthusiast</p>
+        <h1>Hi, I'm <span>Sathya</span></h1>
+        <p class="hero-subtitle">
+          I build clean, user‑centric web experiences using Java, HTML, CSS, and JavaScript.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="#contact" class="btn ghost">Contact Me</a>
+        </div>
+        <div class="hero-meta">
+          <span>BE CSE • K.S.Rangasamy College of Technology</span>
+          <span>Komarapalayam, Tamil Nadu</span>
+        </div>
+      </div>
+      <div class="hero-image">
+        <!-- replace with your photo -->
+        <div class="avatar-placeholder">SATHYA</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-text">
+        I am a Computer Science and Engineering undergraduate with a strong interest in web development
+        and UI/UX design. I enjoy turning ideas into responsive interfaces and focusing on usability and
+        clean code.
+      </p>
+      <p class="section-text">
+        I have hands‑on experience working with Java, MySQL, and front‑end technologies, and I am
+        committed to continuous learning and building impactful digital products.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Languages</h3>
+          <p>Java, HTML, CSS, JavaScript, SQL</p>
+        </div>
+        <div class="skill-card">
+          <h3>Tools & Frameworks</h3>
+          <p>Bootstrap, Figma, Tableau, Git</p>
+        </div>
+        <div class="skill-card">
+          <h3>Other</h3>
+          <p>UI/UX fundamentals, OOP, AutoCAD</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project-card">
+          <h3>Railway Management System</h3>
+          <p class="project-meta">Java • MySQL • OOP</p>
+          <p class="project-text">
+            Console‑based system to manage railway bookings, train schedules, and user data with full
+            CRUD operations. Ensured reliable interaction between Java and MySQL with robust validation.
+          </p>
+          <ul class="project-list">
+            <li>Designed modular OOP structure with classes and inheritance.</li>
+            <li>Implemented persistent storage and dynamic data retrieval.</li>
+            <li>Created user‑friendly menus and performed thorough testing.</li>
+          </ul>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card">
+          <h3>Student Grade Management System</h3>
+          <p class="project-meta">Java • Desktop • OOP</p>
+          <p class="project-text">
+            Menu‑driven Java application to store student records, calculate grades, and display
+            performance summaries based on predefined grading logic.
+          </p>
+          <ul class="project-list">
+            <li>Structured system using <code>Student</code> and <code>GradeManager</code> classes.</li>
+            <li>Implemented grade calculation, sorting, and filtering logic.</li>
+            <li>Added input validation and exception handling for smooth usage.</li>
+          </ul>
+        </article>
+
+        <!-- Placeholder for future web projects -->
+        <article class="project-card project-card-muted">
+          <h3>Upcoming Web Projects</h3>
+          <p class="project-meta">HTML • CSS • JavaScript</p>
+          <p class="project-text">
+            This space is reserved for your next responsive web app or UI/UX case study. Build and
+            deploy a project, then update this card with live demo and GitHub links.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-text">
+        I’m open to internships, freelance opportunities, and collaborations. Feel free to reach out.
+      </p>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p><strong>Email:</strong> <a href="mailto:sathyaarul2806@gmail.com">sathyaarul2806@gmail.com</a></p>
+          <p><strong>Mobile:</strong> <a href="tel:+918838353469">+91 88383 53469</a></p>
+          <p><strong>Location:</strong> Komarapalayam, Tamil Nadu, India</p>
+        </div>
+
+       <form class="contact-form" id="contactForm" action="https://formspree.io/f/mzdaeayg" method="POST">
+
+  <div class="form-group">
+    <label>Name</label>
+    <input name="name" type="text" required>
+  </div>
+
+  <div class="form-group">
+    <label>Email</label>
+    <input name="email" type="email" required>
+  </div>
+
+  <div class="form-group">
+    <label>Message</label>
+    <textarea name="message" required></textarea>
+  </div>
+
+  <button type="submit">Send Message</button>
+
+  <p id="formStatus"></p>
+
+</form>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Sathya A. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
